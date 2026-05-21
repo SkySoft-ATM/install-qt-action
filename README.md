@@ -5,7 +5,7 @@ Installing Qt on Github Actions workflows manually is the worst.
 You know what's easier than dealing with that? Just using this:
 ```yml
     - name: Install Qt
-      uses: jurplel/install-qt-action@v4
+      uses: SkySoft-ATM/install-qt-action@v4
 ```
 
 All done.
@@ -88,7 +88,7 @@ You should use secrets, and store the fields `email` and `pw` inside `QT_EMAIL` 
 Example:
 ```yml
     - name: Install Qt
-      uses: jurplel/install-qt-action@v4
+      uses: SkySoft-ATM/install-qt-action@v4
       with:
         version: '6.8.3'
         target: 'desktop'
@@ -296,7 +296,7 @@ Example value: `--external 7z`
 
 ```yml
     - name: Install Qt
-      uses: jurplel/install-qt-action@v4
+      uses: SkySoft-ATM/install-qt-action@v4
       with:
         version: '6.8.3'
         host: 'windows'
